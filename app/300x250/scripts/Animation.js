@@ -47,7 +47,7 @@ app.Animation = (function () {
     function start() {
         tl1.from(lid, 2, {scale:2, ease: Cubic.easeInOut}, "+=2")
             .from(lid, .5, {opacity:0}, "-=1")
-            .to(txt1, .5, {opacity: 0}, "-=1")
+            .to(txt1, .5, {opacity: 0}, "-=1.75")
 
             .from(table, 3, {y: "+=150", scale: 2, ease: Cubic.easeInOut}, "-=1.5")
             .to(food, 3, {y: "-=10"}, "-=3")
